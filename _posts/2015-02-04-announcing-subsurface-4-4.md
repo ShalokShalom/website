@@ -1,6 +1,6 @@
 ---
-ID: 1510
-post_title: Announcing Subsurface 4.4
+ID: 2073
+post_title: Subsurface 4.4
 author: hohndel
 post_date: 2015-02-04 09:31:09
 post_excerpt: ""
@@ -9,30 +9,31 @@ permalink: >
   https://subsurface-divelog.org/2015/02/announcing-subsurface-4-4/
 published: true
 ---
-The Subsurface development team proudly announces release 4.4 of Subsurface, an open source divelog and dive planning program for Windows, Mac and Linux.
+A equipa do desenvolvimento tem o prazer de anunciar a versão 4.4 do Subsurface. Este é uma aplicação de registo e gestão de mergulhos, de código aberto e livre (open source), para ambientes Windows, Mac e Linux.
 
-Binaries are available for Windows, Mac, and a number of Linux flavors (Ubuntu, Debian Jessie, Linux Mint, Fedora, and openSUSE). Please take a look at our <a title="Downloads" href="https://subsurface-divelog.org/download/">Downloads</a> page for details.
-<h2 id="_some_of_the_changes_since_em_subsurface_em_4_3">Some of the changes since Subsurface 4.3</h2>
+Por favor, consultar a secção <a title="Transferir" href="https://subsurface-divelog.org/download/">Transferir</a> com os detalhes para obter a aplicação.
+
+<h2 id="_some_of_the_changes_since_em_subsurface_em_4_3">Novidades em relação à versão Subsurface 4.3</h2>
 <div class="paragraph">
 
-<em>Subsurface</em> supports posting a dive with profile pictures and some of the relevant data to a user’s timeline on Facebook.
+<em>Subsurface</em> suporta publicar um mergulho na cronologia do Facebook, com a imagem do perfil e outros dados relevantes.
 
 </div>
 <div class="paragraph">
 
-<em>Subsurface</em> now allows the user to select which of the dives downloaded from a dive computer will be added to the dive list.
+<em>Subsurface</em> agora permite ao utilizador seleccionar quais dos mergulhos transferidos de um computador de mergulho, serão efectivamente adicionados aos registos de mergulho.
 
 [caption id="attachment_1519" align="aligncenter" width="872"]<img class="size-full wp-image-1519" src="https://subsurface-divelog.org/wp-content/uploads/2015/02/subsurface-dive-computer1.png" alt="Download from Dive Computer Dialog" width="872" height="604" /> Download from Dive Computer Dialog[/caption]
 
 </div>
 <div class="paragraph">
 
-We have added more capabilities to the CSV import for manually kept dive logs; this now includes start and end pressure for the main tank as well as air and water temperatures.
+Adicionamos mais funcionalidades à importação do formato CSV para registos de mergulhos manuais. Inclui definir a pressão inicial e final da garrafa principal e temperaturas da àgua e do ar à superficie.
 
 </div>
 <div class="paragraph">
 
-There is also a new interactive dialog that makes it much easier to identify the meaning of various columns in CSV import.
+Existe uma nova caixa de dialogo que facilita identificar o significado das diferentes colunas da importação CSV.
 
 </div>
 
@@ -40,36 +41,37 @@ There is also a new interactive dialog that makes it much easier to identify the
 
 <div class="paragraph">
 
-<em>Subsurface</em> can now import dive databases from the Cobalt divelog program.
+<em>Subsurface</em> permite importar a base de dados de mergulhos da aplicação Cobalt.
 
 </div>
 <div class="paragraph">
 
-<em>Subsurface</em> profile drawing has been sped up significantly which also improved the situation when using the visual editor to add dives or plan dives.
+O desempenho do desenho do perfil foi melhorado no <em>Subsurface</em>.
 
 </div>
 <div class="paragraph">
 
-We have made more progress with PSCR support - still not fully functional, but getting closer. It is now possible to select the type of a dive (OC, CCR, PSCR) in the UI.
+Continuamos a melhorar o suporte para PSCR mas atenção que ainda não está completamente funcional!
+É possivel agora seleccionar o tipo de mergulho (OC, CCR, PSCR) na interface gráfica.
 
 </div>
 <div class="paragraph">
 
-Changes to a dive location on the globe now trigger dive edit mode and can be rejected. GPS coordinates are shown immediately when selecting a dive site on the globe.
+Alterações no globo activam a edição de mergulho imediata. As coordenadas GPS são visualizadas na selecção no globo. 
 
 </div>
 <div class="paragraph">
 
-For owners of the Heinrichs &amp; Weikamp OSTC 3 and OSTC Sport <em>Subsurface</em> now supports updating the firmware and informs users of new firmware releases.
+<em>Subsurface</em> permite notificar e actualizar o "firmware" dos computadores de mergulho Heinrichs &amp; Weikamp OSTC 3 e OSTC Sport.
 
 </div>
 <div class="paragraph">
 
-Add support for importing logs from the Divesoft Freedom
+Suporte para importar registos do computador de mergulho Divesoft Freedom.
 
 </div>
 <div class="paragraph">
 
-Dropped the 64bit Windows binary and went back to a single 32bit binary that works on all versions of Windows, 32 or 64bit, all the way back to Windows XP.
+Passamos a disponibilizar um só binário para ambiente Windows, que suporta ambas as arquitecturas 32bits e 64bits, em todas as versões do Windows até ao Windows XP.
 
 </div>

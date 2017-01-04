@@ -1,6 +1,6 @@
 ---
-ID: 1550
-post_title: Announcing Subsurface 4.4.1
+ID: 2069
+post_title: Nova versão Subsurface 4.4.1
 author: hohndel
 post_date: 2015-02-18 14:41:43
 post_excerpt: ""
@@ -9,15 +9,15 @@ permalink: >
   https://subsurface-divelog.org/2015/02/announcing-subsurface-4-4-1/
 published: true
 ---
-The Subsurface development team proudly announces release 4.4.1 of Subsurface, an open source divelog and dive planning program for Windows, Mac and Linux.
+A equipa de desenvolvimento do Subsurface, tem o prazer de anunciar o lançamento do Subsurface 4.4.1.
 
-Binaries are available for Windows, Mac, and a number of Linux flavors (Ubuntu, Debian Jessie, Linux Mint, Fedora, and openSUSE). Please take a look at our <a title="Downloads" href="https://subsurface-divelog.org/download/">Downloads</a> page for details.
-<h2 id="_some_of_the_changes_since_em_subsurface_em_4_4">Some of the changes since Subsurface 4.4</h2>
+Estão disponíveis binários para Windows, Mac e Linux (Ubuntu, Debian, Linux Mint, Fedora, and openSUSE). Consultar a página <a title="Downloads" href="https://subsurface-divelog.org/download/">Transferir</a> para mais detalhes.
+<h2 id="_some_of_the_changes_since_em_subsurface_em_4_4">Melhorias desde da versão anterior (4.4):</h2>
 <ul>
-	<li>Spanish, Russian and French translations of the user manual have been updated.</li>
-	<li>Better and more flexible parsing of GPS coordinates.</li>
-	<li>Small fixes to the HTML export.</li>
-	<li>Fixed a problem where dives imported from some Shearwater dive computers would be considered CCR dives. For dives imported in the past, manually setting them to OC works around the issue.</li>
-	<li>Several fixes to imports from other divelog, including importing from MacDive.</li>
-	<li>New build script that should make it easier to build Subsurface from source on Linux distribution we don't provide packages for.</li>
+	<li>Actualização das traduções do manual em Espanhol, Russo e Françês.</li>
+	<li>Melhorias na leitura de coordenadas GPS.</li>
+	<li>Melhorias na exportação para HTML.</li>
+	<li>Correcção de um problema na importação de mergulhos dos computadores Shearwater.</li>
+	<li>Correcções várias na importação de mergulhos de outras aplicações, incluindo o MacDive.</li>
+	<li>Melhoria nas scripts de compilação ("build") que facilitam construir o Subsurface a partir do código fonte, noutras distribuições de Linux.</li>
 </ul>

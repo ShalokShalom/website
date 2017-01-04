@@ -1,6 +1,6 @@
 ---
-ID: 1561
-post_title: Announcing Subsurface 4.4.2
+ID: 2063
+post_title: Subsurface 4.4.2
 author: hohndel
 post_date: 2015-05-04 13:39:07
 post_excerpt: ""
@@ -9,20 +9,22 @@ permalink: >
   https://subsurface-divelog.org/2015/05/announcing-subsurface-4-4-2/
 published: true
 ---
-The Subsurface development team proudly announces release 4.4.2 of Subsurface, an open source divelog and dive planning program for Windows, Mac and Linux.
+A equipa de desenvolvimento do Subsurface, tem o prazer de anunciar o lançamento do Subsurface 4.4.2.
 
-Binaries are available for Windows, Mac, and a number of Linux flavors (Ubuntu, Debian, Linux Mint, Fedora, and openSUSE). Please take a look at our <a href="https://subsurface-divelog.org/download/">Downloads</a> page for details.
-<h2>Some of the changes since Subsurface 4.4.1</h2>
+Estão disponíveis binários para Windows, Mac e Linux (Ubuntu, Debian, Linux Mint, Fedora, and openSUSE). Consultar a página <a href="https://subsurface-divelog.org/download/">Transferir</a> para mais detalhes.
+
+<h2>Melhorias em relação à anterior versão (Subsurface 4.4.1)</h2>
 <ul>
-	<li>Improved editing of tags when multiple dives are selected.</li>
-	<li>Improved handling of the sample interval when uploading data to divelogs.de</li>
-	<li>Fixed several issues with downloads from the UEMIS SDA</li>
-	<li>Added support for the new models of the Heinrichs &amp; Weikamp OSTC 2 and OSTC 3</li>
-	<li>Added support for the Tusa IQ-700</li>
-	<li>Added support for the Mares Smart</li>
-	<li>Added more DiveSystems iDive models</li>
-	<li>Added support for Scubapro Meridian and Chromis</li>
-	<li>Added / improved support for Oceanic Veo 2, Veo 3 and VTX</li>
+
+<li>Melhorias na edição de 'tags' quando estão seleccionados múltiplos mergulhos.</li>
+<li>Melhoria na definição das amostras, durante a transferência para divelogs.de</li>
+<li>Correcções várias em transferências do computador de mergulho UEMIS SDA</li>
+<li>Adicionado suporte para novos modelos de computador de mergulho Heinrichs & Weikamp OSTC 2 e OSTC 3</li>
+<li>Adicionado suporte para modelo de computador de mergulho Tusa IQ-700</li>
+<li>Adicionado suporte para modelo de computador de mergulho Mares Smart</li>
+<li>Adicionado suporte para novos modelos de computador de mergulho da DiveSystems iDive</li>
+<li>Adicionado suporte para novos modelos de computador de mergulho Scubapro Meridian e Chromis</li>
+<li>Adicionado/Melhorado suporte modelos de computador de mergulho Oceanic Veo 2, Veo 3 e VTX</li>
 </ul>
-<strong>Known issue</strong> (and this was the case in 4.4 and 4.4.1 as well):
-Suunto Eon Steel support on MacOS is currently not working as MacOS grabs the device before Subsurface gets to see it.
+<strong>Problemas conhecidos</strong> (conhecidos da versão 4.4 e 4.4.1):
+Suunto Eon Steel em MacOS não está a funcionar!

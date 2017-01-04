@@ -1,6 +1,8 @@
 ---
-ID: 1557
-post_title: 'If you are using Divelogs.de and Subsurface on Windows&#8230;'
+ID: 2066
+post_title: >
+  Atenção se está a usar Divelogs.de
+  com Subsurface para Windows!
 author: hohndel
 post_date: 2015-04-29 06:08:49
 post_excerpt: ""
@@ -9,5 +11,6 @@ permalink: >
   https://subsurface-divelog.org/2015/04/if-you-are-using-divelogs-de-and-subsurface-on-windows/
 published: true
 ---
-... and if your user name contains non-ascii characters, then Subsurface may have problems connecting with Divelogs.de.
-We just posted an updated Subsurface 4.4.1 binary that fixes that issue. For everyone else there is absolutely no change, but if you are in the situation described then please re-download the binary and re-install.
+Se usar um nome de utilizador com caracteres não ascii, então o Subsurface terá problemas de ligação ao serviço web da Divelogs.de.
+O binário do Subsurface 4.4.1 foi actualizador para corrigir esse problema.
+Por favor, transfira esta nova versão e reinstale a aplicação

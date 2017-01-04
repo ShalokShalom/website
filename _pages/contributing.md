@@ -1,5 +1,5 @@
 ---
-ID: 37
+ID: 1845
 post_title: Contributing
 author: hohndel
 post_date: 2011-10-06 09:18:48
@@ -13,7 +13,7 @@ published: true
 
 
 
-[/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+[/et_pb_post_title][et_pb_text admin_label="Text"]
 
 It might be a good idea to join our <a href="http://lists.subsurface-divelog.org/cgi-bin/mailman/listinfo/subsurface">mailing list</a>. Conversation there is in English - even though this site (and Subsurface itself) are available in many languages, the shared language we all communicate in is English. Actually "Broken English" is just fine... :-)
 
@@ -21,9 +21,9 @@ We also tend to have some developers hanging out in the <code>#subsurface</code>
 
 There are many ways in which you can contribute. We are always looking for testers who are willing to test the code while it is being developed. We especially need people running Windows and Mac (as the majority of the active developers are Linux people). We are also always looking for volunteers who help reviewing and improving the documentation. And very importantly we are looking for translators willing to translate the software into different languages. Our translations are centrally handled at <a href="https://www.transifex.com/">Transifex</a> - please sign up for an account there and then request to join the <a href="https://www.transifex.com/projects/p/subsurface/">Subsurface Team</a>.
 
-If you would like to contribute patches that fix bugs or add new features, that is of course especially welcome. If you are looking for places to start, look at the open bugs in our <a href="https://github.com/Subsurface-divelog/subsurface/issues">bug tracker</a>.
+If you would like to contribute patches that fix bugs or add new features, that is of course especially welcome. If you are looking for places to start, look at the open bugs in our <a href="http://trac.subsurface-divelog.org">bug tracker</a>.
 
-Here is a very brief introduction on creating commits that you can either send as <a href="https://github.com/Subsurface-divelog/subsurface/pulls">pull requests</a> on our main GitHub repository or send as emails to the mailing list. Much more details on how to use git can be found at the <a href="https://www.kernel.org/pub/software/scm/git/docs/user-manual.html">git user manual</a>.
+Here is a very brief introduction on creating commits that you can send to the mailing list. Much more details on how to use git can be found at the <a href="https://www.kernel.org/pub/software/scm/git/docs/user-manual.html">git user manual</a>.
 
 Start with getting the latest source (look at the <a href="https://subsurface-divelog.org/building/">Building Page</a> to find out how).
 <code>cd subsurface
@@ -33,10 +33,10 @@ ok, now we know you're on the latest version. Create a working branch to keep yo
 <code>git checkout -b devel</code>
 Edit the code (or documentation), compile, test... then create a commit:
 <code>git commit -s -a</code>
-Depending on your OS this will open a default editor - usually you can define which by setting the environment variable <tt>GIT_EDITOR</tt>. Here you enter your commit message. The first line is the title of your commit. Keep it brief and to the point. Then a longer explanation (more on this and the fact that we insist on all contributions containing a Signed-off-by: line below).
-If you want to change the commit message, "git commit --amend" is the way to go. Feel free to break your changes into multiple smaller commits. Then, when you are done there are two directions to go, which one you find easier depends a bit on how familiar you are with GitHub. You can either push your branch to GitHub and create a <a href="https://github.com/Subsurface-divelog/subsurface/pulls">pull requests on GitHub</a>, or you run
+Depending on your OS this will open a default editor - usually you can define which by setting the environment variable <code>GIT_EDITOR</code>. Here you enter your commit message. The first line is the title of your commit. Keep it brief and to the point. Then a longer explanation (more on this and the fact that we insist on all contributions containing a Signed-off-by: line below).
+If you want to change the commit message, "git commit --amend" is the way to go. Feel free to break your changes into multiple smaller commits. Then, when you are done run
 <code>git format-patch master..devel</code>
-Which creates a number of files that have names like 0001-Commit-title.patch, which you can then send to our developer mailing list.
+Which creates a number of files that have names like 0001-Commit-title.patch.
 
 When sending code, please either send signed-off patches or a pull request with signed-off commits. If you don't sign off on them, we will not accept them. This means adding a line that says "Signed-off-by: Name " at the end of each commit, indicating that you wrote the code and have the right to pass it on as an open source patch.
 
@@ -60,6 +60,6 @@ Signed-off-by: Your Name
 
 That header line really should be meaningful, and really should be just one line. The header line is what is shown by tools like gitk and shortlog, and should summarize the change in one readable line of text, independently of the longer explanation.
 
-[caption id="attachment_42" align="aligncenter" width="761"]<img class="size-full wp-image-42" title="Exemple avec gitk" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/Screenshot-gitk-subsurface-1.png" alt="gitk sample" width="761" height="757"> Exemple with gitk[/caption]
+[caption id="attachment_42" align="aligncenter" width="761"]<img class="size-full wp-image-42" title="Exemple avec gitk" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/Screenshot-gitk-subsurface-1.png" alt="gitk sample" width="761" height="757" /> Exemple with gitk[/caption]
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

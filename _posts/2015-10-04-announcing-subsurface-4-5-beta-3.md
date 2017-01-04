@@ -1,6 +1,6 @@
 ---
-ID: 1628
-post_title: Announcing Subsurface 4.5 Beta 3
+ID: 1638
+post_title: Anuncio de Subsurface 4.5 Beta 3
 author: hohndel
 post_date: 2015-10-04 09:10:26
 post_excerpt: ""
@@ -9,84 +9,85 @@ permalink: >
   https://subsurface-divelog.org/2015/10/announcing-subsurface-4-5-beta-3/
 published: true
 ---
-<!--:en-->This is intended to be the last Beta before the upcoming release. The Beta test cycle has been very quiet with fairly few people testing, but we also didn't get a ton of bug reports. Beta 3 adds a new feature (very unusual this late in the cycle, but it was a great idea and easy to do) and quite a few fixes.
+Se supone que esta va a ser la última Beta antes del próximo lanzamiento. El ciclo de pruebas dela Beta ha sido muy tranquilo con poca gente testeando, pero bueno, tampoco se ha recibido una tonelada de informes de errores. Beta 3 añade una nueva funcionalidad (muy inusual en una fase tan tardía del ciclo, pero era una excelente idea y fácil de implementar) y algunas soluciones.
 
-Some of the changes since <em>Subsurface</em> 4.5 Beta 2:
-<div class="paragraph"><p><strong>The following issues have been addressed:</strong></p></div>
+
+Algunos de los cambios desde <em>Subsurface</em> 4.5 Beta 2:
+<div class="paragraph"><p><strong>Se han solucionado los siguientes errores:</strong></p></div>
 <div class="ulist"><ul>
 <li>
 <p>
-Triage all issues reported in Coverity scans and fix actual bugs detected
+Ordenados y solucionados, en estos momentos, todos los problemas detectados en los escaneos Coverity.
 </p>
 </li>
 <li>
 <p>
-Fix a possible crash in the Uemis downloader
+Solucionado un posible cuelgue en el descargador de Uemis.
 </p>
 </li>
 <li>
 <p>
-Print less debug information to the console (unless in verbose mode)
+Se imprime menos información de depuración a la consola (a menos que se esté en modo "verbose")
 </p>
 </li>
 <li>
 <p>
-Small adjustments to the VPM-B parameters
+Pequeños ajustes a los parámetros de la VPM-B
 </p>
 </li>
 <li>
 <p>
-Fix a UI bug by reimplementing the input widget for dive locations
+Corregido un fallo en la UI, al reimplementar el panel de entrada de datos de las ubicaciones de buceo.
 </p>
 </li>
 <li>
 <p>
-Fix BT issues
+Corregidos problemas con el BT.
 </p>
 </li>
 <li>
 <p>
-Fix cloud storage issues on some versions of Windows
+Corregidos problemas con el almacenamiento en la nube en algunas versiones de Windows.
 </p>
 </li>
 <li>
 <p>
-Fix SAC rate calculation for dive computers reporting samples after the diver reached the surface
+Corregido el cálculo de CAS para ordenadores de buceo que siguen guardando muestras después de que el buceador haya llegado a la superficie.
 </p>
 </li>
 <li>
 <p>
-Improve the handling of GPS data imported from the Subsurface webservice
+Mejorado el manejo de datos GPS importados desde el servicio web de Subsurface.
 </p>
 </li>
 <li>
 <p>
-Don&#8217;t zoom out the globe to "sky view" when a dive site has no GPS data
+No se hace "zoom out" del globo terráqueo cuando un punto de buceo no tiene datos GPS.
 </p>
 </li>
 <li>
 <p>
-Various other small fixes
+Otras varias pequeñas reparaciones.
 </p>
 </li>
 </ul></div>
-<div class="paragraph"><p><strong>The following feature has been added:</strong></p></div>
+<div class="paragraph"><p><strong>Se han añadido las siguientes capacidades:</strong></p></div>
 <div class="ulist"><ul>
 <li>
 <p>
-A new action was added to the dive list context menu that allows the user to split a dive into multiple dives at a surface interval. If the dive computer reports "free dive" mode the split(s) happen at every surface interval of at least 10 seconds, otherwise the threshold is 60 seconds.
+Se ha añadido una nueva acción en el menú contextual de la lista de inmersiones, que permite al usuario dividir una inmersión en múltiples inmersiones para un intervalo en superficie. Si el ordenador de buceo informa hallarse en "modo Apnea", la división sucede para cada intervalo en superficie de, al menos, 10 segundos, de otro modo, el umbral es de 60 segundos.
 </p>
 </li>
 </ul></div>
-
-You can get Subsurface 4.5 Beta 3 from these locations:
+</div>
+Se puede obtener Subsurface 4.5 Beta 3 desde estas ubicaciones:
 
 <strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.5-Beta-3.exe">https://subsurface-divelog.org/downloads/subsurface-4.5-Beta-3.exe</a>
 
 <strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.5-Beta-3.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.5-Beta-3.dmg</a> <br/>
 
-<strong>Linux: Ubuntu: </strong>Add <code>ppa:subsurface/subsurface-beta</code> to your software sources; the .deb files in that PPA can also be installed on sufficiently current versions <strong>Debian</strong> and <strong>LinuxMint</strong>; see the <a href="https://subsurface-divelog.org/download/">Downloads</a> page and use <code>http://ppa.launchpad.net/subsurface/subsurface-beta/ubuntu<code></code></code> to get our latest beta version.
+<strong>Linux: Ubuntu: </strong>Añade <code>ppa:subsurface/subsurface-beta</code> a tus fuentes de código; los archivos .deb de ese PPA también pueden instalarse en versiones suficientemente actualizadas de <strong>Debian</strong> y <strong>LinuxMint</strong>; ver la <a href="https://subsurface-divelog.org/download/">página de Descargas</a> y usa <code>http://ppa.launchpad.net/subsurface/subsurface-beta/ubuntu<code></code></code> para conseguir nuestra última versión beta.
 
-<strong>Linux: openSUSE / Fedora:</strong> go to our <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurfacebeta">open build service beta page</a>
+<strong>Linux: openSUSE / Fedora:</strong> ves a nuestra <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurfacebeta">página beta de servicio de compilación abierto</a>
 
-<strong>This is a beta release,</strong> so the usual warnings apply. We really don't think that it will eat your data file (and it is making a backup of your old files, just in case), but paying extra attention might not hurt. And as always, we are very curious to get feedback (after all, that's the purpose of a beta release). Please post in the <a href="https://subsurface-divelog.org/user-forum/">User Forum</a> or file a bug in our <a href="http://trac.subsurface-divelog.org">Bug Tracker</a>.
+<strong>Esta es una versión beta,</strong> así que son de aplicación los avisos habituales. Realmente no creemos que se vaya a comer tus archivos de datos (y está haciendo una copia de seguridad detu archivo anterior, solo por si acaso), pero prestar un plus de atención no hace daño. Y, como siempre, nos encanta recibir "feedback" (después de todo, es el propósito de una beta). Por favor, escribe en el <a href="https://subsurface-divelog.org/user-forum/">Foro de usuarios</a> o rellena un informe de fallo en nuestro <a href="http://trac.subsurface-divelog.org">Bug Tracker</a>.

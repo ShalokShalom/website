@@ -1,6 +1,6 @@
 ---
-ID: 953
-post_title: Subsurface 4.0.2 has been released
+ID: 2121
+post_title: Subsurface 4.0.2 dostępny
 author: hohndel
 post_date: 2014-01-09 04:56:08
 post_excerpt: ""
@@ -9,15 +9,15 @@ permalink: >
   https://subsurface-divelog.org/2014/01/subsurface-4-0-2-has-been-released/
 published: true
 ---
-The Subsurface team is proud to announce another small bugfix and enhancement update to Subsurface.
+Ekipa Subsurface z przyjemnością ogłasza udostępnienie kolejnej wersji Subsurface zawierającej drobne poprawki.
 
-New in version 4.0.2 compared to Subsurface 4.0.1:
+Zmiany w wersji 4.0.2 w stosunku do Subsurface 4.0.1:
 <ul>
-	<li>fixed potential crash when importing dive data without dive computer model information</li>
-	<li>improve parsing of equipment data; this now accepts localized units as well as input in units that are not the display units (so if you run Subsurface in metric, but went diving in a place where weights are in US Pounds (lbs), you can now enter the weight in lbs and Subsurface does the right thing)</li>
-	<li>fix temperature conversion when downloading data from Uemis SDA</li>
-	<li>improve autocompletion to always be case insensitive</li>
-	<li>improve selection handling in the dive list</li>
-	<li>include event data in libdivecomputer dump</li>
-	<li>improve profiles generated for dives with no depth samples and no average depth</li>
+	<li>wyeliminowanie awarii aplikacji w przypadku pobierania danych bez podania modelu komputera</li>
+	<li>poprawka w przetwarzaniu informacji o wyposażaniu nurka - można teraz podawać wartości w jednostkach innych niż domyślne (np. balast w funtach, pomimo, że Subsurface działa w trybie metrycznym)</li>
+	<li>poprawianie konwersji temperatury przy pobieraniu danych z Uemis SDA</li>
+	<li>automatyczne uzupełnianie ignoruje teraz wielkość liter</li>
+	<li>poprawka w wybieraniu nurkowań z listy</li>
+	<li>zrzut z libdivecomputer zawiera informacje o wydarzeniach podczas nurkowania (np. zmiana gazu)</li>
+	<li>poprawienie generowania profilu dla nurkowań z brakującymi próbkami głębokości i bez głębokości średniej</li>
 </ul>

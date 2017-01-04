@@ -1,6 +1,6 @@
 ---
-ID: 824
-post_title: Subsurface 4.0 has been released
+ID: 2137
+post_title: Subsurface 4.0 dostępny
 author: hohndel
 post_date: 2013-12-15 14:21:49
 post_excerpt: ""
@@ -9,28 +9,29 @@ permalink: >
   https://subsurface-divelog.org/2013/12/subsurface-4-0-has-been-released/
 published: true
 ---
-The Subsurface developer team is proud to announce the release of the next major version of Subsurface.
+Ekipa Subsurface z przyjemnością ogłasza udostępnienie najnowszej wersji Subsurface.
 
-With version 4.0 we switched to <a href="http://qt-project.org/">Qt</a> as our UI toolkit. This caused the need to do a complete rewrite of a large chunk of the Subsurface code base. We decided to keep much of the logic and core of the existing code around, but used the opportunity for quite a bit of cleanup and many improvements.
+Wraz z rozpoczęciem prac nad wersją 4.0 zaczęliśmy korzystać ze środowiska <a href="http://qt-project.org/">Qt</a> do tworzenia interfejsu graficznego. Spowodowało to potrzebę całkowitego przepisania sporej części kodu Subsurface. Rdzeń programu pozostał ten sam, ale wykorzystaliśmy sposobność by uporządkować kod i wprowadzić liczne ulepszenia.
 
-The basic concepts are the same, most of the basic features are the same, but trying to create a concise list of changes that summarizes the more than 1600 commits that have gone in since version 3.1 seems a daunting task.
+Podstawowe założenia pozostały bez zmian, większość funkcjonalności działa podobnie, ale od wersji 3.1.1 zostało wprowadzone ponad 1600 zmian w kodzie i opisanie ich wszystkich byłoby raczej niemożliwe.
 
-Here are some of the highlights:
+Najważniejsze zmiany obejmują:
 <ul>
-	<li>new map widget with a spinning globe to visualize dive locations</li>
-	<li>much more "native" look and feel under Windows and Mac</li>
-	<li>ability to edit dives "in place": simply click on an entry in the Dive Notes or Equipment tabs to start editing</li>
-	<li>more data about each dive is presented in the Dive Notes and can be edited without separate dialogs and without having to go through context menues</li>
-	<li>graphical editor for dive profiles for manually added dives</li>
-	<li>better information overlay for the dive profile</li>
-	<li>addition of a "ruler" tool in the profile window that allows measuring of many properties between two points in the profile</li>
-	<li>better tag system with both predefined user-specified free text tags</li>
-	<li>better integration with divelogs.de (upload &amp; download support)</li>
-	<li>ability to show the user manual from within the application without a life internet connection and without opening the manual in an external browser window</li>
-	<li>better statistics (with per-trip statistics available)</li>
+	<li>nowa mapa z trójwymiarowym globusem pokazująca lokalizację miejsc nurkowych</li>
+	<li>o wiele lepsza integracja graficzna z system w Windows i Mac OS</li>
+	<li>możliwość edycji nurkowań "w miejscu": wystarczy kliknąć w zakładce "Opis nurkowania" lub "Wyposażenie" by wejść w tryb edycji</li>
+	<li>zakładka "Opis nurkowania" zawiera więcej danych o nurkowaniu i możne je edytować bez konieczności korzystania z okienek dialogowych i menu kontekstowego, jak to miało miejsce w 3.1</li>
+	<li>graficzny edytor profili nurkowych umożliwiający ręczne dodawanie nurkowań</li>
+	<li>dużo lepsze okienko informacyjne w profilu nurkowania</li>
+	<li>linijka w oknie z profilem nurkowym pozwalająca mierzyć parametry danego fragmentu nurkowania</li>
+	<li>poprawiony system tagów z możliwością dopisywania swoich</li>
+	<li>poprawiona integracja z <a href="https://www.divelogs.de/">divelogs.de </a>(wsparcie zarówno dla wysyłania jak i pobierania danych)</li>
+	<li>dostęp do instrukcji obsługi bez połączenia z Internetem</li>
+	<li>poprawione statystyki nurkowań (z uwzględnieniem grupowania nurkowań)</li>
+	<li>możliwość ręcznego wyboru języka</li>
 </ul>
-As always in a massive rewrite like this, there are still a small handful of known bugs and issues - please check the <a href="http://git.subsurface-divelog.org/?p=subsurface.git;a=blob;f=ReleaseNotes.txt;hb=refs/tags/v4.0">ReleaseNotes</a> and our <a href="http://trac.subsurface-divelog.org">bug tracker</a>. The two biggest missing features (compared to 3.1.1) are
+Przy tak znacznych zmianach w kodzie nie do uniknięcia jest obecność pewnej liczby błędów - proszę przejrzeć <a href="http://git.subsurface-divelog.org/?p=subsurface.git;a=blob;f=ReleaseNotes.txt;hb=refs/tags/v4.0">Uwagi do wydania</a> (po angielsku) i naszą <a href="http://trac.subsurface-divelog.org">listę defektów</a>. Dwie najważniejsze brakujące funkcjonalności (w stosunku do 3.1.1) to
 <ul>
-	<li>Filter-&gt;Select Events is not implemented</li>
-	<li>Dive planner has been disabled for now</li>
+	<li>Filtr-&gt;Wybór Zdarzeń nie jest zaimplementowany</li>
+	<li>Graficzny planer nurkowań jest na razie wyłączony</li>
 </ul>

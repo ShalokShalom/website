@@ -1,6 +1,6 @@
 ---
-ID: 1377
-post_title: Announcing Subsurface 4.3
+ID: 2081
+post_title: Subsurface 4.3 dostępny
 author: hohndel
 post_date: 2014-12-17 21:16:46
 post_excerpt: ""
@@ -12,107 +12,105 @@ published: true
 <div class="sectionbody">
 <div class="paragraph">
 
-The <em>Subsurface</em> development team proudly announces release 4.3 of <em>Subsurface</em>, an open source divelog and dive planning program for Windows, Mac and Linux.
+Ekipa <em>Subsurface</em> z przyjemnością ogłasza udostępnienie kolejnej wersji Subsurface, otwartego oprogramowania do logowania i planowania nurkowań, działającego w systemach Windows, Mac i Linux.
 
 </div>
 <div class="sect2">
-<h3 id="_some_of_the_changes_since_em_subsurface_em_4_2">Some of the changes since <em>Subsurface</em> 4.2</h3>
+<h3 id="_some_of_the_changes_since_em_subsurface_em_4_2">Ważniejsze zmiany w stosunku do <em>Subsurface</em> 4.2</h3>
 <div class="paragraph">
 
-<em>Subsurface</em> now supports flexible filtering of the dive list. When the filter is opened,one can specify a combination of different criteria like tags, people who were on the dive, dive site, suit, etc. While filtering one can see how many dives
-match any of the criteria, and how many dives match the combination of the selected criteria (see the panel below the main menu in the image below)
+<em>Subsurface</em> umożliwia teraz filtrowanie listy nurkowań. Po włączeniu filtrowania, użytkownik może podać kryteria takie jak tagi, ludzie z którymi nurkował, miejsce nurkowania, skafander itp. Podczas filtrowania widać ile nurkowań pasuje do danych kryteriów i ile nurkowań pasuje do kombinacji wybranych kryteriów (panel poniżej głównego menu na poniższym zrzucie ekranu)
 
 </div>
 <div class="imageblock" style="text-align: center;">
-<div class="content"><img class="aligncenter size-full wp-image-1381" src="https://subsurface-divelog.org/wp-content/uploads/2014/12/V4.3_Subsurface_filter.jpg" alt="Subsurface main screen with filters" width="750" height="536" /></div>
+<div class="content"><img class="aligncenter size-full wp-image-1381" src="https://subsurface-divelog.org/wp-content/uploads/2014/12/V4.3_Subsurface_filter.jpg" alt="Główny ekran Subsurface z filtrami" width="750" height="536" /></div>
 </div>
 <div class="paragraph">
 
-When editing a dive, one can now copy information about a dive and paste it into one or more other dives. This makes it easy to add the same equipment, buddies, tags or other aspects of a dive into a group of dives with similar characteristics.
+Podczas edycji nurkowania istnieje możliwość skopiowania informacji o nurkowaniu z już istniejącego wpisu i wklejenie jej do jednego lub więcej nurkowań. Ułatwia to dodawanie nurkowań z tym samym wyposażeniem, realizowanych z tymi samymi ludźmi itp.
 
 </div>
 <div class="paragraph">
 
-The dive profile now offers an easy to understand tissue saturation graph that shows tissue saturation at any point during the dive. (See image below)
+Profil nurkowania pokazuje teraz wykres nasycenia tkanek obrazujący obliczone nasycenia w każdej chwili nurkowania (obrazek poniżej)
 
 </div>
 <div class="imageblock" style="text-align: center;">
-<div class="content"><img class="aligncenter size-full wp-image-1382" src="https://subsurface-divelog.org/wp-content/uploads/2014/12/V4.3_CylBars.jpg" alt="Cylinder bars and tissue saturation graph" width="500" height="97" /></div>
+<div class="content"><img class="aligncenter size-full wp-image-1382" src="https://subsurface-divelog.org/wp-content/uploads/2014/12/V4.3_CylBars.jpg" alt="pasek gazu i nasycenie tkanek" width="500" height="97" /></div>
 </div>
 <div class="paragraph">
 
-In the dive profile one can turn on an improved visualization of the gas combinations used during a dive (aka "tank bar" with different gases represented by different colours, see image above).
-
-</div>
-<div class="paragraph">
-
-Owners of the Heinrichs &amp; Weikamp OSTC 2 and 3 as well as dive computers in the popular Suunto Vyper family of dive computers can configure the settings of their dive computers using <em>Subsurface</em>.
+W profilu nurkowania dodano możliwość włączenia wizualizacji rodzaju gazu używanego podczas nurkowania ("pasek gazu" gdzie rożne mieszanki zobrazowane są poprzez rożne kolory - patrz obrazek powyżej)
 
 </div>
 <div class="paragraph">
 
-For a number of dive computers <em>Subsurface</em> now downloads additional data and shows them in a new tab on the screen. This includes (depending on the dive computer) information like battery levels, no fly times, Gradient Factors used during the dive, etc. This feature is enabled in all official <em>Subsurface</em> binaries and includes the Uemis Zurich SDA. When building from source this requires a custom version of libdivecomputer (as explained in the INSTALL file).
+Właściciele komputerów Heinrichs &amp; Weikamp OSTC 2 i 3 oraz komputerów z popularnej rodziny popular Suunto Vyper mogą teraz zmieniać konfiguracje swoich komputerów przy użyciu <em>Subsurface</em>.
 
 </div>
 <div class="paragraph">
 
-The dive planner now offers the ability to re-plan dives and to create duplicate dive plans in order to plan multiple scenarios.
+Dla niektórych komputerów nurkowych <em>Subsurface</em> pobiera dodatkowe dane o nurkowaniu i pokazuje je na dodanej w tym celu zakładce. Obejmuje to - w zależności od modelu komputera - informacje o poziomie baterii, czasie zakazu lotu, ustawieniach Gradient Factors używanych podczas nurkowania itp. Funkcja ta jest włączona w oficjalnym wydaniu <em>Subsurface</em>. Przy budowaniu ze źródeł potrzebna jest specjalna wersja libdivecomputer (zostało to opisane w pliku INSTALL).
 
 </div>
 <div class="paragraph">
 
-We added support for several new dive computers including the Suunto EON Steel, Aeris A300 CD, and Aeris F11.
+Planer umożliwia teraz edycję zaplanowanego nurkowania i tworzenie wariantów planów.
 
 </div>
 <div class="paragraph">
 
-<em>Subsurface</em> can now import dive logs from Liquivision and Cochran software as well as the new Suunto DM5.
+Dodaliśmy wsparcie dla kilku nowych komputerów, między innymi Suunto EON Steel, Aeris A300 CD oraz Aeris F11.
 
 </div>
 <div class="paragraph">
 
-We made many improvements for UDDF and CSV import, UDDF export now complies with the latest version of the standard.
+<em>Subsurface</em> może teraz importować logi z programów Liquivision i Cochran oraz z nowego Suunto DM5.
 
 </div>
 <div class="paragraph">
 
-Many issues with the HTML export were addressed.
+Dodaliśmy wiele poprawek do importów UDDF i CSV, a eksport UDDF jest teraz zgodny z najnowszą wersją standardu.
 
 </div>
 <div class="paragraph">
 
-Initial support for closed circuit rebreathers (CCR) and pSCR was added. Dive logs from the Poseidon MkVI CCR can be imported. Visualization of dive logs as well as dive planning should work - but this feature is fairly early in its development and we assume that there may be a few bugs and mis-features hidden in this area. Here is a dive profile for a Poseidon MkVI:
+Poprawiono wiele rzeczy w eksporcie HTML.
+
+</div>
+<div class="paragraph">
+
+Dodano wstępna wersję obsługi obiegów zamkniętych (CCR) i pSCR. Można importować dane z Poseidon MkVI CCR. Wizualizacja profilu i planowanie nurkowań powinno działać - ta funkcjonalność jest jednak we wczesnej fazie rozwoju i może zawierać jeszcze sporo błędów. Poniżej profil z Poseidon MkVI:
 
 </div>
 <div class="imageblock" style="text-align: center;">
-<div class="content"><img class="aligncenter size-full wp-image-1380" src="https://subsurface-divelog.org/wp-content/uploads/2014/12/V4.3_CCR.jpg" alt="CCR sample profile" width="510" height="438" /></div>
+<div class="content"><img class="aligncenter size-full wp-image-1380" src="https://subsurface-divelog.org/wp-content/uploads/2014/12/V4.3_CCR.jpg" alt="Przykładowy profil CCR" width="510" height="438" /></div>
 </div>
 <div class="paragraph">
 
-<strong>Other notable improvements</strong>
+<strong>Pozostałe warte odnotowania zmiany</strong>
 
 </div>
 <div class="ulist">
 <ul>
-	<li>Import of manually logged dives (e.g., from an existing paper logbook) is now much better documented in the user manual. Instead of having to individually enter each dive with the graphical profile editor users can add all their dives in a spreadsheet and import the data from there into <em>Subsurface</em> in one single operation.</li>
-	<li>Many other small improvements to the planner</li>
-	<li>Many small UI changes for better use on small displays (tighter columns and column headers on the dive list, the toolbox of icons no longer
-forces a minimum height of the profile, etc)</li>
-	<li>Improvements on HiDPI displays</li>
-	<li>We fixed an annoying bug where when starting to edit a dive the pop-up with completions would cover the edit line (this usually happened when editing tags)</li>
-	<li>For the (rather unusual) dive computers that send a heading event in every sample we automatically declutter the profile display now</li>
-	<li>The Windows installer is smarter: the 64bit installer refuses to install its binaries on a 32bit OS and conversely the installer warns you when installing 32bit binaries on a 64bit OS</li>
-	<li>Better synchronization with divelogs.de, including support for multiple tanks</li>
+	<li>Import ręcznie wprowadzanych nurkowań (np. z papierowego logbooka) jest teraz dużo lepiej opisany w instrukcji obsługi (ENG). Zamiast dodawać pojedynczo nurkowania w edytorze profili można wpisać parametry nurkowań do arkusza kalkulacyjnego i zaimportować je do <em>Subsurface</em> hurtowo</li>
+	<li>wiele drobnych poprawek w planerze</li>
+	<li>Wiele poprawek w interfejsie graficznym pod kątem mniejszych ekranów (ciaśniejsze kolumny, mniejsze nagłówki, pionowy pasek z opcjami nie wymusza wysokości profilu itp)</li>
+	<li>Poprawki dla wyświetlaczy HiDPI</li>
+	<li>Poprawiliśmy denerwujący błąd, gdzie po rozpoczęciu edycji nurkowania podpowiedzi auto-uzupełniania zakrywały edytowaną linię tekstu (z reguły występowało to przy edycji tagów)</li>
+	<li>Dla komputerów zapisujących namiar kompasu w każdej próbce (np. xDEEP BLACK) nie umieszczamy tych danych jak znaczników graficznych na wykresie by nie zaburzać czytelności</li>
+	<li>Instalator wersji dla Windows jest teraz sprytniejszy: instalator wersji 64bit odmawia instalacji na systemie 32bit a instalator wersji 32bit ostrzega podczas instalacji w systemie 64bit</li>
+	<li>Lepsza synchronizacja z divelogs.de, w tym wsparcie dla używania wielu butli</li>
 </ul>
 </div>
 <div class="paragraph">
 
-<strong>Known bugs</strong>
+<strong>Znane problemy</strong>
 
 </div>
 <div class="ulist">
 <ul>
-	<li>There appears to be a bug in Qt: when changing the password needed authenticate with a proxy, <em>Subsurface</em> will not use the new password until after a restart</li>
+	<li>Błąd w Qt: po zmianie hasła dla proxy, <em>Subsurface</em> będzie korzystał ze starego hasła do czasu ponownego uruchomienia</li>
 </ul>
 </div>
 </div>

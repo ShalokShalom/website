@@ -1,6 +1,6 @@
 ---
-ID: 1073
-post_title: Subsurface 4.2 has been released
+ID: 2095
+post_title: Subsurface 4.2 disponível
 author: hohndel
 post_date: 2014-08-08 13:42:43
 post_excerpt: ""
@@ -9,20 +9,21 @@ permalink: >
   https://subsurface-divelog.org/2014/08/subsurface-4-2-has-been-released/
 published: true
 ---
-<p>The Subsurface developer team is proud to announce the release of the next version of Subsurface. Version 4.2 contains a number of bug fixes and improvements compared to 4.1. Highlights include:</p>
+<p>A equipa de desenvolvimento do Subsurface tem o prazer de anunciar a disponibilização da nova versão 4.2. Estas são as melhorias e correcções em relação à anterior versão 4.1:</p>
 <ul>
-<li>The Windows installer is now a 64bit installer including Qt5</li>
-<li>There is still a deprecated 32bit installer including Qt4, but that has several known issues (among others, printing has a number of bugs that were fixed in Qt5).</li>
-<li>The Mac installer has also been updated to Qt5</li>
-<li>A current development version of libdivecomputer is used for the Windows and Mac builds.</li>
-<li>A Dive Planner got added again, using the graphical profile editor; it supports different ascent speeds, backgas breaks during deco and many other interesting features; it allows the user to print just the dive plan (without graphic profile); one shortcoming is that currently one cannot re-plan a planned dive, i.e., once you save a dive plan, you can no longer edit / change the plan; you have to start from scratch again. This is on the todo list.</li>
-<li>Pictures can be associated with dives and shown in the profile.</li>
-<li>Printing is much improved (but see above), including a "1 dive per page" mode, better rendering of dives (in our mind) and better data presented per dive.</li>
-<li>Data entry for dives is much more intuitive and consistent.</li>
-<li>We have a reasonably functional HTML exporter for the dive log (it's still work in progress but already quite powerful, even though lacking localization support).</li>
-<li>Support to import dive log files from Seabear dive computers.</li>
-<li>We added a user survey to learn more about the interests and needs of our users.</li>
-<li>Improved and extended user manuals</li>
-<li>New translated user manuals in Spanish and Russian</li>
+<li>O programa de instalação para Windows é agora de 64bits e baseado no Qt5.</li>
+<li>Continua a existir uma versão descontinuada do programa de instalação de 32bits baseado no Qt4, mas com alguns problemas conhecidos (entre eles, a impressão que foi corrigido no Qt5).</li>
+<li>O programa de instalação para Mac também foi actualizado para Qt5.</li>
+<li>A versão mais recente da biblioteca <strong>libdivecomputer </strong> é usada nas versões Windows e Mac.</li>
+<li>O Planeador de Mergulhos foi reintroduzido. Supporta diferentes velocidades de ascenção, troca para gás de fundo durante a descompressão, e mais outras funcionalidades interessantes. Permite o utilizador imprimir o plano de mergulho (sem o gráfico de perfil de profundidade). Uma deficiência reconhecida é não ser possível reajustar um plano de mergulho, isto é, depois de gravar um plano, não lhe é possível o alterar. Precisa de recomeçar do início.</li> 
+<li>Fotografias podem ser associadas aos mergulhos e serem visualizadas no perfil.</li>
+<li>As capacidades de impressão foram melhoradas. Permite modo "um mergulho por página", com melhor estilo visual e apresentação de informação.</li>
+<li>A introdução de dados é mais intuitiva e consistente.</li>
+<li>Disponibilização de um exportador dos registos de mergulho para HTML (ainda continua a ser desenvolvido e não suporta outros idiomas).</li>
+<li>Suporte de importação dos registos de mergulho do computador Seabear.</li>
+<li>Adicionamos um inquérito ao utilizador para conhecer melhor os interesses e necessidadades da nossa comunidade.</li>
+<li>Melhoramos o manual do utilizador (não disponível em português)</li>
+<li>Manual de Utilizador traduzido para espanhol e russo.</li>
 </ul>
-<p>If you are using Subsurface 4.1 on Windows or Mac you should be able to check for the update from within the application (in the Help menu). Otherwise find download links at our <a href="https://subsurface-divelog.org/download/">Downloads page</a>. Please note if you are running a 32bit version of Windows that the default Windows installer now only runs on 64bit systems.</p>
+<p>
+É possivel na versão 4.1 do Subsurface, em Windows ou Mac, verificar que existe uma versão mais recente, dentro da própria aplicação (no menu de Ajuda). Em alternativa, encontra os links para transferência da aplicação (download), <a href="https://subsurface-divelog.org/pt/download/">nesta página</a>. Ter em atenção que se estiver a correr uma versão de 32 bits do Windows, a aplicação de instalação prédefinida é a versão de 64 bits.</p>

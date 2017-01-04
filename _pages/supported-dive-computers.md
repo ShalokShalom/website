@@ -1,6 +1,6 @@
 ---
-ID: 50
-post_title: Supported Dive Computers
+ID: 1816
+post_title: Computadores de mergulho suportados
 author: hohndel
 post_date: 2011-10-06 09:42:38
 post_excerpt: ""
@@ -15,8 +15,7 @@ published: true
 
 [/et_pb_post_title][et_pb_text admin_label="Text"]
 
-This is the list of supported dive computers (through libdivecomputer) as of October 2015.
-
+<p>Esta é a lista de computadores de mergulho suportados, à data de Outubro de 2014.</p>
 <dl><dt>Aeris</dt><dd><ul>
             <li>A300, A300 AI, A300CS, Atmos 2, Atmos AI, Atmos AI 2, Compumask, Elite, Elite T3, Elite T3, Epic, Epic, F10, F11, Manta, XR-1 NX, XR-2</li></ul>
     </dd>
@@ -89,13 +88,15 @@ This is the list of supported dive computers (through libdivecomputer) as of Oct
     <dt>Zeagle</dt><dd><ul>
             <li>N2iTiON3</li>
         </ul>
-</dd></dl>subsurface can also read the XML files that can be exported by
+    </dd>
+</dl>
+<p>Subsurface reconhece os ficheiros no formato XML, exportados pelas seguintes aplicações:</p>
 <ul>
-	<li><a href="http://divinglog.de/">Divinglog</a></li>
-	<li><a href="http://www.jdivelog.org/">JDivelog</a></li>
-	<li><a href="http://www.mac-dive.com/">MacDive</a></li>
-	<li><a href="http://en.divelogs.de/">divelogs.de</a></li>
-	<li>Suunto Dive Manager 3 &amp; 4</li>
+<li><a href="http://divinglog.de/">Divinglog</a></li>
+<li><a href="http://www.jdivelog.org/">JDivelog</a></li>
+<li><a href="http://www.mac-dive.com/">MacDive</a></li>
+<li><a href="http://en.divelogs.de/">divelogs.de</a></li>
+<li>Suunto Dive Manager 3 &amp; 4</li>
 </ul>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

@@ -1,5 +1,5 @@
 ---
-ID: 193
+ID: 2207
 post_title: Bugtracker
 author: hohndel
 post_date: 2012-10-18 15:21:38
@@ -15,6 +15,6 @@ published: true
 
 [/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-While we are happy to receive bug reports (and patches!) on our <a href="http://lists.subsurface-divelog.org/cgi-bin/mailman/listinfo/subsurface">mailing list</a>, you can also open issues on our main <a href="https://github.com/Subsurface-divelog/subsurface/issues">Subsurface repository on GitHub</a>.
+While we are happy to receive bug reports (and patches!) on our <a href="http://lists.subsurface-divelog.org/cgi-bin/mailman/listinfo/subsurface">mailing list</a>, we also have a <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bugtracker</a> that you can use for that purpose.
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

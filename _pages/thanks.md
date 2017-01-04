@@ -1,6 +1,6 @@
 ---
-ID: 241
-post_title: Thanks
+ID: 1775
+post_title: Agradecimentos
 author: hohndel
 post_date: 2012-12-31 09:49:22
 post_excerpt: ""
@@ -15,7 +15,7 @@ published: true
 
 [/et_pb_post_title][et_pb_text admin_label="Text"]
 
-The Subsurface team would like to thank a few companies and individuals for their help through documentation, hardware donations and loaner devices:
+A equipa do Subsurface agradece as seguinte empresas e individuos pela sua ajuda com a documentação, doação ou empréstimos de equipamento (hardware) :
 <ul>
 	<li><a href="http://www.uemis.com/">Uemis</a></li>
 	<li><a href="http://www.heinrichsweikamp.com/">heinrichs weikamp</a></li>
